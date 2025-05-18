@@ -7,11 +7,11 @@ A simple RPC service built using **Apache Thrift** in **Java** that allows clien
 ```
 thrift-java-user-service/
 ├── user_service.thrift         # Thrift IDL definition
-├── gen-java/                   # Generated Java code from Thrift compiler
+├── generated/                   # Generated Java code from Thrift compiler
 ├── server/
 │   └── UserServiceServer.java  # Java implementation of the Thrift server
 └── client/
-└── UserServiceClient.java  # Java client that calls the server
+│   └── UserServiceClient.java  # Java client that calls the server
 ```
 ---
 
